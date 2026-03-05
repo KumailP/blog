@@ -5,5 +5,3 @@ date: 2026-03-06
 tags: [Astro, Blog]
 slug: first-post
 ---
-
-Hello world.
