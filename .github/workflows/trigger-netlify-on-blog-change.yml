@@ -1,0 +1,26 @@
+name: Trigger Netlify Deploy On Blog Change
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "**/*.mdx"
+      - "**/*.markdown"
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify build hook
+        env:
+          NETLIFY_BUILD_HOOK_URL: ${{ secrets.NETLIFY_BUILD_HOOK_URL }}
+        run: |
+          if [ -z "$NETLIFY_BUILD_HOOK_URL" ]; then
+            echo "Missing NETLIFY_BUILD_HOOK_URL secret."
+            exit 1
+          fi
+
+          curl -fsS -X POST "$NETLIFY_BUILD_HOOK_URL"
