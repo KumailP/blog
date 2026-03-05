@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "47ce3247b61d7ba8",
+        "id": "960e30837d9556cd",
         "type": "tabs",
         "children": [
           {
-            "id": "5f54d8b3ae294f72",
+            "id": "96197e61b30b45cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/first-post.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first-post"
-            }
-          },
-          {
-            "id": "2bf50e89100d2c25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/scalable-nodejs-queue-system.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "scalable-nodejs-queue-system"
+              "title": "resilient-api-rate-limiting-nodejs"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/scalable-nodejs-queue-system.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for scalable-nodejs-queue-system"
+              "title": "Backlinks for resilient-api-rate-limiting-nodejs"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/scalable-nodejs-queue-system.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from scalable-nodejs-queue-system"
+              "title": "Outgoing links from resilient-api-rate-limiting-nodejs"
             }
           },
           {
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/scalable-nodejs-queue-system.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of scalable-nodejs-queue-system"
+              "title": "Outline of resilient-api-rate-limiting-nodejs"
             }
           }
         ]
@@ -198,10 +183,16 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "5c83b06cde53d02f",
+  "active": "96197e61b30b45cd",
   "lastOpenFiles": [
-    "images/scalable-nodejs-queue-system",
+    "images/resilient-api-rate-limiting-nodejs/test.png",
+    "images/scalable-nodejs-queue-system/queue.png",
+    "images/resilient-api-rate-limiting-nodejs/queue.png",
     "posts/first-post.md",
-    "posts/scalable-nodejs-queue-system.md"
+    "images/resilient-api-rate-limiting-nodejs/Untitled.md",
+    "posts/resilient-api-rate-limiting-nodejs.md",
+    "images/resilient-api-rate-limiting-nodejs",
+    "posts/scalable-nodejs-queue-system.md",
+    "images/scalable-nodejs-queue-system"
   ]
 }
