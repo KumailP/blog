@@ -8,7 +8,7 @@ slug: "scalable-nodejs-queue-system"
 
 # Building a Scalable Node.js Queue System
 
-![Queue architecture hero diagram](queue.png)
+![Queue architecture hero diagram](../images/scalable-nodejs-queue-system/queue.png)
 
 This post shows how to ship a resilient background job pipeline with strong reliability guarantees.
 
@@ -16,12 +16,12 @@ This post shows how to ship a resilient background job pipeline with strong reli
 
 When your API workload spikes, synchronous processing starts to hurt latency and reliability.
 
-![Traffic spike buffering through queue workers](queue.png)
+![Traffic spike buffering through queue workers](../images/scalable-nodejs-queue-system/queue.png)
 
 ## Core architecture
 
 <img
-  src="./images/scalable-nodejs-queue-system/queue.png"
+  src="../images/scalable-nodejs-queue-system/queue.png"
   alt="Core architecture showing API producers, Redis queue, worker pool, and monitoring"
   width="1200"
   height="700"
