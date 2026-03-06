@@ -1,7 +1,7 @@
 ---
 title: "ReactDOM.render Explained: React Rendering & Reconciliation"
 description: A production-focused guide to queue workers, retries, idempotency, and observability.
-date: 2026-03-06
+date: 2020-01-22
 tags:
   - ReactDOM
   - VirtualDOM
