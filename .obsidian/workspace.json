@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/resilient-api-rate-limiting-nodejs.md",
+                "file": "posts/scalable-nodejs-queue-system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resilient-api-rate-limiting-nodejs"
+              "title": "scalable-nodejs-queue-system"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/resilient-api-rate-limiting-nodejs.md",
+                "file": "posts/scalable-nodejs-queue-system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for resilient-api-rate-limiting-nodejs"
+              "title": "Backlinks for scalable-nodejs-queue-system"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/resilient-api-rate-limiting-nodejs.md",
+                "file": "posts/scalable-nodejs-queue-system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from resilient-api-rate-limiting-nodejs"
+              "title": "Outgoing links from scalable-nodejs-queue-system"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/resilient-api-rate-limiting-nodejs.md",
+                "file": "posts/scalable-nodejs-queue-system.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of resilient-api-rate-limiting-nodejs"
+              "title": "Outline of scalable-nodejs-queue-system"
             }
           }
         ]
@@ -185,14 +185,14 @@
   },
   "active": "96197e61b30b45cd",
   "lastOpenFiles": [
+    "posts/resilient-api-rate-limiting-nodejs.md",
+    "posts/scalable-nodejs-queue-system.md",
     "images/resilient-api-rate-limiting-nodejs/test.png",
     "images/scalable-nodejs-queue-system/queue.png",
     "images/resilient-api-rate-limiting-nodejs/queue.png",
     "posts/first-post.md",
     "images/resilient-api-rate-limiting-nodejs/Untitled.md",
-    "posts/resilient-api-rate-limiting-nodejs.md",
     "images/resilient-api-rate-limiting-nodejs",
-    "posts/scalable-nodejs-queue-system.md",
     "images/scalable-nodejs-queue-system"
   ]
 }

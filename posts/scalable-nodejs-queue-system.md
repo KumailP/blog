@@ -1,14 +1,17 @@
 ---
-title: "Building a Scalable Node.js Queue System"
-description: "A production-focused guide to queue workers, retries, idempotency, and observability."
-date: "2026-03-06"
-tags: ["Node.js", "Architecture", "Redis", "Scalability"]
-slug: "scalable-nodejs-queue-system"
+title: Building a Scalable Node.js Queue System
+description: A production-focused guide to queue workers, retries, idempotency, and observability.
+date: 2026-03-06
+tags:
+  - Node.js
+  - Architecture
+  - Redis
+  - Scalability
+slug: scalable-nodejs-queue-system
+ogImage: ../images/resilient-api-rate-limiting-nodejs/test.png
 ---
 
 # Building a Scalable Node.js Queue System
-
-![Queue architecture hero diagram](../images/scalable-nodejs-queue-system/queue.png)
 
 This post shows how to ship a resilient background job pipeline with strong reliability guarantees.
 
