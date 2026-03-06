@@ -9,6 +9,7 @@ tags:
   - WebDev
 slug: react-redux-state-management-guide
 ogImage:
+featured: "true"
 ---
 ## Introduction
 
