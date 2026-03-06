@@ -11,6 +11,7 @@ tags:
 slug: resilient-api-rate-limiting-nodejs
 featured: "true"
 ogImage: ../images/resilient-api-rate-limiting-nodejs/test.png
+lastUpdated: 2026-03-06
 ---
 
 # Designing Resilient API Rate Limiting in Node.js

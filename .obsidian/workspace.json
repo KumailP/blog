@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "960e30837d9556cd",
+        "id": "ab9b31e098f57f01",
         "type": "tabs",
         "children": [
           {
-            "id": "96197e61b30b45cd",
+            "id": "4bed888b489c0bc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Node.js Queue Workers in Production.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Node.js Queue Workers in Production"
+              "title": "resilient-api-rate-limiting-nodejs"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Node.js Queue Workers in Production.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Node.js Queue Workers in Production"
+              "title": "Backlinks for resilient-api-rate-limiting-nodejs"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Node.js Queue Workers in Production.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Node.js Queue Workers in Production"
+              "title": "Outgoing links from resilient-api-rate-limiting-nodejs"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Node.js Queue Workers in Production.md",
+                "file": "posts/resilient-api-rate-limiting-nodejs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Node.js Queue Workers in Production"
+              "title": "Outline of resilient-api-rate-limiting-nodejs"
             }
           }
         ]
@@ -183,11 +183,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "96197e61b30b45cd",
+  "active": "4bed888b489c0bc0",
   "lastOpenFiles": [
-    "posts/scalable-nodejs-queue-system.md",
-    "posts/Node.js Queue Workers in Production.md",
+    "2026-03-06.md",
     "posts/resilient-api-rate-limiting-nodejs.md",
+    "posts/Node.js Queue Workers in Production.md",
+    "posts/scalable-nodejs-queue-system.md",
     "images/resilient-api-rate-limiting-nodejs/test.png",
     "images/scalable-nodejs-queue-system/queue.png",
     "images/resilient-api-rate-limiting-nodejs/queue.png",
