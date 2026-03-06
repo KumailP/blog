@@ -267,7 +267,7 @@ In a few lines, this is how Context works:
 
 We can create a Context using the API, which gives us a `Provider` and a `Consumer`. At the common parent of our components where the state should be saved, we create a `Provider` and wrap the children. This allows us to pass a _'value'_ prop which is our state. This value prop can be accessed anywhere in the children using the `Consumer`.
 
-**❕ Fun Fact:** Redux uses the Context API under the hood
+> **❕ Fun Fact:** Redux uses the Context API under the hood
 
 One important thing to note is that if we're not using primitive types, our connected components may re-render every time the state changes, even if it's unrelated. To fix this, we can create multiple Providers and Consumers for each separate state, although that can be a bit time-consuming.
 
