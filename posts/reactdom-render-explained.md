@@ -97,7 +97,7 @@ The statement above returns a reference to the component that you have created. 
 🔹 **Note:** ReactDOM.render requires a React element as the first argument. React elements are generated through _React.createElement_. Therefore, you may use that syntax or simply invoke a JSX interpretation of the component to get the parameters in the correct format for the arguments. Using _React.createElement_, our code can be modified to look like this:
 
   
-`ReactDOM.render(`**`React.createElement(Calculator)`**`, document.querySelector("#container"))`
+`ReactDOM.render(React.createElement(Calculator), document.querySelector("#container"))`
 
 ## Tree Structure of React Elements
 
@@ -105,7 +105,7 @@ React elements are defined in a **tree structure**. This means each element is e
 
 For a better understanding, the figure below defines an example React component tree:
 
-![](/images/reactdom-render-explained/1.png)
+![Component Tree](/images/reactdom-render-explained/1.png)
 
 In the above diagram, we can see that `<Calculator />` is our **root React element**, which is rendered into the container div within the HTML code.
 
