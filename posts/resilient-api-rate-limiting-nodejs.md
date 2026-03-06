@@ -21,6 +21,10 @@ Rate limiting protects your system from abuse, stabilizes latency during traffic
 
 Without a limiter, one noisy client can degrade performance for everyone. A production-safe limiter keeps throughput predictable and prevents cascading failures.
 
+### Test subheading
+
+Does it work?
+
 ## Common strategies
 
 - Fixed window: simple but can allow bursts at boundary edges.
