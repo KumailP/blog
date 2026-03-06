@@ -41,39 +41,23 @@ This post intentionally includes multiple Node.js code snippets and one raw HTML
   
 
 ```js
-
-import http from "node:http";
-
-  
+import http from "node:http";  
 
 const server = http.createServer((req, res) => {
-
-if (req.url === "/health") {
-
-res.writeHead(200, { "content-type": "application/json" });
-
-res.end(JSON.stringify({ ok: true, service: "queue-api" }));
-
-return;
-
-}
-
-  
-
-res.writeHead(404, { "content-type": "application/json" });
-
-res.end(JSON.stringify({ error: "Not found" }));
-
+	if (req.url === "/health") {
+		res.writeHead(200, { "content-type": "application/json" });
+		res.end(JSON.stringify({ ok: true, service: "queue-api" }));
+		return;
+	}
+	
+	res.writeHead(404, { "content-type": "application/json" });
+	
+	res.end(JSON.stringify({ error: "Not found" }));
 });
-
-  
 
 server.listen(3000, () => {
-
-console.log("API listening on :3000");
-
+	console.log("API listening on :3000");
 });
-
 ```
 
   
