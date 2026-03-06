@@ -183,13 +183,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "5c83b06cde53d02f",
+  "active": "4bed888b489c0bc0",
   "lastOpenFiles": [
     "images/reactdom-render-explained/1.png",
+    "posts/reactdom-render-explained.md",
+    "Untitled.md",
     "images/reactdom-render-explained/ReactDOM render overview.png",
     "images/reactdom-render-explained",
     "posts/Untitled.md",
-    "posts/reactdom-render-explained.md",
     "posts/resilient-api-rate-limiting-nodejs.md",
     "posts/Node.js Queue Workers in Production.md",
     "2026-03-06.md",

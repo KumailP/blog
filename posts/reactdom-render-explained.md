@@ -10,8 +10,9 @@ tags:
   - React
 slug: reactdom-render-explained
 ogImage:
+featured:
 ---
-# Introduction
+## Introduction
 
 The **ReactDOM** library is not often talked about when working with React, however, It is vital for any React developer to know how _ReactDOM.render_ is used to inject our React code into the DOM. It is also good to get a brief idea of how it works under the hood, so we can write better code to accommodate the architecture.
 
@@ -19,7 +20,7 @@ According to the **[React docs](https://reactjs.org/docs/react-dom.html)**,
 
 > The `react-dom` package provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside of the React model if you need to.
 
-# What You Will Learn
+### What You Will Learn
 
 By the end of this blog post, you will hopefully know more about:
 
@@ -28,7 +29,7 @@ By the end of this blog post, you will hopefully know more about:
 - Uses of `React.render()` & Best Practices
 - Other ReactDOM methods
 
-# Prerequisites - What You Need To Know
+### Prerequisites - What You Need To Know
 
 This blog post presents an overview of the ReactDOM library. Since it involves some core ReactJS concepts, **it is better to be familiar with the library** and how it works.
 
@@ -36,11 +37,11 @@ Even if you don't have a deep understanding of React, this blog post can help de
 
 Before moving to ReactDOM, let's take a brief look at the Document Object Model.
 
-# What is the DOM?
+## What is the DOM?
 
 The Document Object Model (DOM) is a code representation of all the webpages that you see on the internet. **Every element**, such as a button or image that you see on the web-page is a part of a hierarchy of various elements within a tree structure. This means each element (except the root element) is a child of another element. This structure enables you to easily interface your JavaScript code with HTML to create highly powerful and dynamic web applications.
 
-# The Virtual DOM
+## The Virtual DOM
 
 The way that web developers usually work with the DOM to develop interactive websites, is by finding a DOM node and making the required changes to it, such as changing an attribute or adding a child node.
 
@@ -50,7 +51,7 @@ When a React element is updated, ReactDOM firstly updates the Virtual DOM. After
 
 This process, also known as _“reconciliation”_, is one of the things that helps us to build blazing fast Single Pages Applications (SPAs) with React.
 
-# react-dom
+## react-dom
 
 ReactDOM is a package that provides methods that can be used to interact with the DOM, which is needed to insert or update React elements. It provides many helper functions such as:
 
@@ -70,7 +71,7 @@ And more...
   
 Most of the time when building Single Page Applications (such as with _create-react-app_), we usually create a single DOM container and call the render method once to initialize our React application. Since this method is always used when working with React, learning about the working of _ReactDOM.render_ can greatly benefit us as React developers.
 
-## render()
+### render()
 
 The render method can be called the primary gateway between React and the DOM.
 
@@ -98,7 +99,7 @@ The statement above returns a reference to the component that you have created. 
   
 `ReactDOM.render(`**`React.createElement(Calculator)`**`, document.querySelector("#container"))`
 
-# Tree Structure of React Elements:
+## Tree Structure of React Elements
 
 React elements are defined in a **tree structure**. This means each element is essentially a child of another React element. However, for the root element, we need to create an element (DOM Node) in our HTML code to act as a container for our React element tree, which can be accessed via _ReactDOM.rende_r.  
 
@@ -116,7 +117,7 @@ function Calculator() { return ( <> <Display /> <KeyPad /> </> ); }
 
 function KeyPad() { return ( <> <NumKeys /> <FunctionalKeys /> <Operators /> </> ); }
 
-# Reconciliation & The React Fiber Architecture:
+## Reconciliation & The React Fiber Architecture
 
 ⬛ The information in this section is **not required to know** to use React. The learning outcome of this section is to understand briefly the inner workings of React and it’s architecture, and to demystify the black box that is the reconciliation process. It can be beneficial to you if you plan to contribute to the library.
 
@@ -133,7 +134,7 @@ Fiber works in two phases,
 - Commit Phase
     
 
-## Reconciliation (Render) Phase:
+### Reconciliation (Render) Phase
 
 This phase is triggered when a component is updated through state or props. Therefore, the standard React protocol is followed, where a component is updated and lifecycle hooks are called, after which the DOM nodes that need to be updated are calculated. In Fiber, these activities are termed as _“work”_.
 
@@ -143,7 +144,7 @@ As more work is performed, more computational resources are utilized. The update
 
 Each _“work”_ unit is represented by a **Fiber Node**. The algorithm starts from the top of the Fiber Node Tree and skips nodes until it reaches the one which was updated. Then it performs the required work and moves up the tree until all the required work is performed.
 
-## Commit Phase:
+### Commit Phase:
 
 During the commit phase, the algorithm first calls the required lifecycle methods before updating or unmounting a component. Then, it performs the actual work, that is, inserting, updating or deleting a node in the DOM. Finally, it calls the post-mutation lifecycle methods `componentDidMount` and `componentDidUpdate`.
 
@@ -151,9 +152,9 @@ Along with this, React also activates the Fiber Node Tree that was generated in 
 
 _Whew..._ however abstract, we now have a faint idea of how the reconciliation process works behind the scenes.
 
-# Using ReactDOM.render
+## Using ReactDOM.render
 
-## Usage in Single Page Applications:
+### Usage in Single Page Applications
 
 Let’s move back to the practical side of things, and discuss how we can use _ReactDOM.render_ in different scenarios.
 
@@ -161,7 +162,7 @@ Assuming we are working with a Single Page Application, we will only need to ins
 
 All we need to do is create a container, and render our React root element to it, as described above in the Calculator example.
 
-## Integrating the React Component tree in any website:
+### Integrating the React Component tree in any website
 
 We can also use ReactDOM.render to integrate React in a different application. **This is why we call React a library, not a framework**. You can use it as little as possible or as much as possible, as it completely depends on your use-case.
 
@@ -177,7 +178,7 @@ In the **index.html** file shown above, we are importing the script that renders
 
 You can also use _ReactDOM.render_ multiple times throughout the application. This means that if you are creating a new website, or modifying an existing website that does not use React yet, you can use _ReactDOM.render_ to generate some pages using React, while others do not use the library.
 
-## Cleaning up React nodes:
+### Cleaning up React nodes
 
 When you unmount a React component from the DOM, it is important to call _unmountComponentAtNode()_ according to the syntax given below to ensure there are no memory leaks.
 
@@ -189,13 +190,13 @@ This is why the React team **suggests using a wrapper** for your React root elem
 
 Similarly, you can also write the logic in your wrapper to unmount a React root component within the same page, as soon as its work is done.
 
-## Updating a Component with ReactDOM.render():
+### Updating a Component with ReactDOM.render()
 
 To update a component, you may call ReactDOM.render again for the same React element and DOM node. However, one thing that is important to note is that _ReactDOM.render_ completely replaces all of your props each time this function is called.
 
 This means, you must also pass all of the other required props to the element that you are rendering, which can be an issue. The reason for the props being replaced is because React elements are immutable. The React team explains how you can [create a wrapper to set the previous props again](https://reactjs.org/blog/2015/10/01/react-render-and-top-level-api.html).
 
-# More ReactDOM methods:
+## More ReactDOM methods
 
 Although `render()` is the most commonly used ReactDOM method, there are a few more available at your disposal. Let’s take a look at two of those.
 
@@ -209,7 +210,7 @@ It is similar to `render()`, however, it is used when rendering pages through **
 
 Portals can be created to render a component **outside of the React component tree** of that specific component. This can be highly useful to generate elements somewhere unrelated on the page.
 
-# Conclusion
+## Conclusion
 
 To sum it up, ReactDOM acts as a powerful interface between our React component tree and the DOM. The most commonly used method from ReactDOM is `render()`, which can be used to connect entire React applications to the DOM.
 
