@@ -77,7 +77,7 @@ The render method can be called the primary gateway between React and the DOM.
 
 Let’s say you have defined a React element (`<Calculator />`), as well as a DOM node to act as a container for that element (div with the ID of “container”). Now, you can use _ReactDOM.render_ to render the element within that container using the syntax given below:
 
-`ReactDOM.render(<`_`Calculator`_ `/>, document.querySelector("#container"))`
+`ReactDOM.render(<Calculator />, document.querySelector("#container"))`
 
 🔹 **Note:** If the Calculator component has already been mounted in the div element, calling this again will simply update the DOM based on the difference between the components.
 
