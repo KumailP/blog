@@ -1,6 +1,6 @@
 ---
 title: "ReactDOM.render Explained: React Rendering & Reconciliation"
-description: A production-focused guide to queue workers, retries, idempotency, and observability.
+description: 📰 Learn how render() in ReactDOM works to render React components to the DOM. Understand React reconciliation, ReactDOM internals, and real-world use cases.
 date: 2020-01-22
 tags:
   - ReactDOM
