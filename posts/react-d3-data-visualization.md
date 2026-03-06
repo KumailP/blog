@@ -1,7 +1,7 @@
 ---
 title: "React D3 Tutorial: Getting Started with Data Visualization in React"
 description: Learn how to use D3.js with React to build interactive data visualizations. This beginner-friendly guide covers React and D3 integration, basic concepts, and building a simple dataset visualization.
-date: 2020-03-15
+date: 2020-02-19
 tags:
   - React
   - JavaScript

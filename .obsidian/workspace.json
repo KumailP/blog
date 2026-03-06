@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/react-redux-state-management-guide.md",
+                "file": "posts/react-d3-data-visualization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react-redux-state-management-guide"
+              "title": "react-d3-data-visualization"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/react-redux-state-management-guide.md",
+                "file": "posts/react-d3-data-visualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for react-redux-state-management-guide"
+              "title": "Backlinks for react-d3-data-visualization"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/react-redux-state-management-guide.md",
+                "file": "posts/react-d3-data-visualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from react-redux-state-management-guide"
+              "title": "Outgoing links from react-d3-data-visualization"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/react-redux-state-management-guide.md",
+                "file": "posts/react-d3-data-visualization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of react-redux-state-management-guide"
+              "title": "Outline of react-d3-data-visualization"
             }
           }
         ]
@@ -185,13 +185,13 @@
   },
   "active": "4bed888b489c0bc0",
   "lastOpenFiles": [
+    "posts/react-redux-state-management-guide.md",
     "posts/react-d3-data-visualization.md",
     "images/react-d3-data-visualization/3.png",
     "images/react-d3-data-visualization/2.png",
     "images/react-d3-data-visualization/1.png",
     "images/react-d3.md",
     "images/react-d3-data-visualization",
-    "posts/react-redux-state-management-guide.md",
     "2026-03-06.md",
     "images/react-redux-state-management-guide",
     "images/react-redux-state-management-guide/1.png",
