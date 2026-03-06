@@ -10,7 +10,7 @@ tags:
 slug: react-d3-data-visualization
 ogImage:
 ---
-## Introduction[#](#introduction "Direct link to heading")
+## Introduction
 
 ReactJS is a powerful UI library that many developers turn towards these days to create fast, snappy and complex user interfaces, and it continues to grow into a more mature and robust solution for implementing user interfaces day by day. Meanwhile, whenever developers have to deal with data visualization, oftentimes their immediate go-to JavaScript library is none other than D3 (short for Data-Driven Documents).
 
@@ -18,7 +18,7 @@ Assuming we have to create a user interface that is powered by data manipulation
 
 So, let's outline several methods for you to implement D3 with ReactJS to create those high-end data-driven user interfaces you are looking for!
 
-## What You Will Learn[#](#what-you-will-learn "Direct link to heading")
+## What You Will Learn
 
 The 🗝 key take-aways of this blog post include:
 
@@ -29,7 +29,7 @@ The 🗝 key take-aways of this blog post include:
 - Displaying and updating a simple dataset (+ React Hooks!)
     
 
-## Prerequisites – What You Need to Know[#](#prerequisites-what-you-need-to-know "Direct link to heading")
+## Prerequisites – What You Need to Know
 
 Before we dive headfirst into React D3, it is better to have some know-how of ReactJS to make it easy for you to absorb all the information in this post.
 
@@ -37,13 +37,13 @@ Since this is not a ReactJS tutorial, we would recommend you check out the offic
 
 To get a thorough front to back understanding of React, you can always get the [Fullstack React book](https://www.newline.co/fullstack-react).
 
-## What is D3?[#](#what-is-d3 "Direct link to heading")
+## What is D3?
 
 As we established earlier, D3 is one of the most widely used JavaScript libraries for data manipulation and visualization. D3 works at a lower-level to allow users to create a visual representation of the dataset at hand. Now, one may wonder what it is about D3 that makes it the best at what it does.
 
 In essence, **D3 makes use of HTML, CSS and SVG elements** as the core building blocks for visualization, and offers complex methods to empower our UI to handle different types of datasets. Not only that, as developers we’re given complete control over the outlook and handling of the elements we create. Varying from dataset to dataset, there is not a single solution that we can use to extract the most useful insights through visualization, therefore D3 gives us the freedom to shape and manipulate our visualizations as needed.
 
-## How D3 Works[#](#how-d3-works "Direct link to heading")
+## How D3 Works
 
 Firstly, we use D3 to load the data using `select()` or `selectAll()` depending on how many elements we want to connect. Next, we use `data()` to bind our dataset to those DOM (Document Object Model) elements. Once connected, we can update the DOM elements based on changes in the data. This process is called _"Data Joins"_.
 
@@ -79,7 +79,7 @@ In this method, we tell D3 exactly what we want and let it handle the rest for u
 
 D3 also provides us with a lot of different utilities, such as transitions, brushes, and polygons to make our visualizations highly customizable.
 
-## Integrating React and D3[#](#integrating-react-and-d3 "Direct link to heading")
+## Integrating React and D3
 
 Both React and D3 have amazing capabilities to access and modify the DOM. However, when we want to implement D3 within a React application, it is very important to figure out a way to modify the DOM in such a way that both libraries do not clash with each other.
 
@@ -87,7 +87,7 @@ Both React and D3 have amazing capabilities to access and modify the DOM. Howeve
 
 To circumvent this issue, there are a number of ways of integrating React and D3. Let's take a brief look at how each implementation works.
 
-### 1. Giving D3 complete control[#](#1.-giving-d3-complete-control "Direct link to heading")
+### 1. Giving D3 complete control
 
 In this approach, we give complete control of mutating the DOM to D3. This is done by using refs and giving D3 direct access to modify that DOM element.
 
@@ -97,7 +97,7 @@ This approach is very useful if we already have a D3 implementation that we want
 
 That does not mean that we can't use state though. In fact, we can isolate our D3 logic in multiple React components, play with the state of those components and integrate them into a larger React web page.
 
-### 2. Using D3 with React lifecycle methods[#](#2.-using-d3-with-react-lifecycle-methods "Direct link to heading")
+### 2. Using D3 with React lifecycle methods
 
 Nicolas Hery describes this approach in detail on his [blog](http://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/). In essence, this approach allows us to utilize React lifecycle methods to sync our D3 calls.
 
@@ -112,13 +112,13 @@ For example, we will:
 
 This is done within class-based components, by encapsulating our D3 code within an object that handles all of the D3 logic and calling that object within our React component.
 
-### 3. Letting React handle the rendering[#](#3.-letting-react-handle-the-rendering "Direct link to heading")
+### 3. Letting React handle the rendering
 
 This is the approach that follows _"The React Way"_. What this means is, we will let React handle the rendering, and only use D3 for computation. Therefore, we can create functions for our D3 computations, such as for calculating scales and ranges, etc. These functions are then called within the render method of a component to dynamically create and update those elements.
 
 This approach enables us to fully utilize React when working with D3, and as such we are responsible for creating our own shapes and animating them. Therefore, we're free to use any React libraries such as react-spring for animation. Since it requires us to utilize low-level D3 concepts, it is not preferred for complete beginners to start with this method.
 
-## Implementation of D3 within React[#](#implementation-of-d3-within-react "Direct link to heading")
+## Implementation of D3 within React
 
 Let's create a simple D3 visualization to show rectangles of various sizes using the first approach: Giving D3 complete control.
 
@@ -378,7 +378,7 @@ Notice how we're also utilizing a cool feature D3 allows us to use, which is `.j
 
 Instead of assigning duplicate attributes and styles, we can simply factor out all of those chained functions and append them to the end of our chain.
 
-## Conclusion[#](#conclusion "Direct link to heading")
+## Conclusion
 
 D3 is great to load, manipulate and display data using complex computations. React is great to create highly dynamic and powerful user interfaces. What do you get when you _combine_ them? **The answer:** A complete solution to create web applications that display multiple dynamic charts, graphs and other types of data visualizations leveraging React state for interaction between and within components.
 
