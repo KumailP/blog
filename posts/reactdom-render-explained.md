@@ -101,7 +101,7 @@ The statement above returns a reference to the component that you have created. 
 
 ## Tree Structure of React Elements
 
-React elements are defined in a **tree structure**. This means each element is essentially a child of another React element. However, for the root element, we need to create an element (DOM Node) in our HTML code to act as a container for our React element tree, which can be accessed via _ReactDOM.rende_r.  
+React elements are defined in a **tree structure**. This means each element is essentially a child of another React element. However, for the root element, we need to create an element (DOM Node) in our HTML code to act as a container for our React element tree, which can be accessed via *ReactDOM.render*.  
 
 For a better understanding, the figure below defines an example React component tree:
 
