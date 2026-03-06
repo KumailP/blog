@@ -10,11 +10,10 @@ tags:
   - Backend
 slug: resilient-api-rate-limiting-nodejs
 featured: "true"
+ogImage: ../images/resilient-api-rate-limiting-nodejs/test.png
 ---
 
 # Designing Resilient API Rate Limiting in Node.js
-
-![API rate limiting architecture overview](../images/resilient-api-rate-limiting-nodejs/test.png)
 
 Rate limiting protects your system from abuse, stabilizes latency during traffic spikes, and ensures fair access across users.
 
