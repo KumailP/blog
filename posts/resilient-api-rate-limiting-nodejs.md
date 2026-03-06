@@ -1,9 +1,15 @@
 ---
-title: "Designing Resilient API Rate Limiting in Node.js"
-description: "A practical guide to implementing reliable, scalable API rate limiting with Redis, sliding windows, and graceful degradation."
-date: "2026-03-06"
-tags: ["Node.js", "API", "Redis", "Performance", "Backend"]
-slug: "resilient-api-rate-limiting-nodejs"
+title: Designing Resilient API Rate Limiting in Node.js
+description: A practical guide to implementing reliable, scalable API rate limiting with Redis, sliding windows, and graceful degradation.
+date: 2026-03-06
+tags:
+  - Node.js
+  - API
+  - Redis
+  - Performance
+  - Backend
+slug: resilient-api-rate-limiting-nodejs
+featured: "true"
 ---
 
 # Designing Resilient API Rate Limiting in Node.js
